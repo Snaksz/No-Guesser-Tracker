@@ -1,0 +1,47 @@
+{
+  "name": "tbd",
+  "version": "0.0.1",
+  "description": "Tracks Covid-19 cases and provides localized Covid news, information, and statistics.",
+  "authors": [
+    {
+      "name": "Aaron Goidel",
+      "email": "acgoidel@gmail.com",
+      "url": "http://aarongoidel.com/"
+    },
+    {
+      "name": "Ethan Lam",
+      "email": "ethan.lam@mail.utoronto.ca",
+      "url": "https://www.ethanlam.ca/"
+    },
+    {
+      "name": "Michael Sheinman Orenstrakh",
+      "email": "michael092001@gmail.com"
+    },
+    {
+      "name": "Rehmat Munir",
+      "email": "rehmat.munir@mail.utoronto.ca"
+    }
+  ],
+  "scripts": {
+    "start": "cd server/ && yarn start",
+    "client": "cd client/ && yarn dev",
+    "server": "cd server/ && yarn dev"
+  },
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "dependencies": {
+    "react-remove-scroll": "^2.4.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronCGoidel/Covid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AaronCGoidel/Covid/issues"
+  },
+  "homepage": "https://github.com/AaronCGoidel/Covid#readme"
+}
